@@ -1,9 +1,11 @@
+import java.time.LocalDate;
+
 class Drive{
     private String driver;
-    private String departure;
-    private String arrival;
+    private LocalDate departure;
+    private LocalDate arrival;
 
-    public Drive(String driver, String departureTime, String arrivalTime){
+    public Drive(String driver, LocalDate departureTime, LocalDate arrivalTime){
         this.driver = driver;
         departure = departureTime;
         arrival = arrivalTime;
@@ -13,11 +15,11 @@ class Drive{
         return driver;
     }
 
-    public String getArrivalTime() {
+    public LocalDate getArrivalTime() {
         return arrival;
     }
 
-    public String getDepartureTime() {
+    public LocalDate getDepartureTime() {
         return departure;
     }
 
