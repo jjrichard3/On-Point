@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ON-POINT - Make Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+		<img class="logo" src="logo.png">
+		<h1 class="company-name">ON-POINT</h1>
+		<nav>
+			<ul>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="makebooking.html" class="active">Make Booking</a></li>
+        <li><a href="mybookings.html">My Bookings</a></li>
+			</ul>
+		</nav>
+		<div class="login">
+			<a href="#">Log In</a>
+		</div>
+	</header>
+
+  <div class="booking-container">
+    <h2>Make a Booking</h2>
+    <div class="calendar-container">
+      <h3>Select a Date:</h3>
+      <input type="date" id="date-picker" name="date-picker">
+    </div>
+
+    <div class="rides-container">
+      <h3>Rides Available on <span id="selected-date"></span>:</h3>
+      <ul id="rides-list">
+    
+      </ul>
+    </div>
+  </div>
+  <script src="bookings.js"></script>
+</body>
+</html>
