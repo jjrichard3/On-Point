@@ -1,0 +1,197 @@
+/* General styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial Black", sans-serif;
+}
+
+header {
+  background-color: rgb(217, 16, 16);
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding: 0 20px;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.company-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  flex-grow: 1;
+  text-align: left;
+  margin-left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.login {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 0px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.login a {
+  color: rgb(217, 16, 16);
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 0px;
+}
+
+/* Main content styles */
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+/* Booking a drive page styles */
+
+#booking {
+  margin-top: 50px;
+}
+
+#booking p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#booking input[type="date"] {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#rides {
+  margin-top: 20px;
+}
+
+.ride {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.ride-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ride-info h3 {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.ride-info p {
+  margin: 0;
+}
+
+.ride-info button {
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ride-info button:hover {
+  background-color: #3e8e41;
+}
+
+/* My bookings page styles */
+
+#my-bookings {
+  margin-top: 50px;
+}
+
+.booking-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.booking-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.booking-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.booking-info h3 {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.booking-info p {
+  margin: 0;
+}
+
+.booking-cancel a {
+  color: red;
+}
+
+.booking-cancel a:hover {
+  text-decoration: underline;
+}
+
